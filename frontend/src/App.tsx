@@ -2,10 +2,21 @@ import React from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 
 const Home = () => (
-  <div className="p-4">
-    <h1 className="text-2xl font-bold">Brest Guinness Tour 🍺</h1>
-    <p className="mt-2">Bienvenue sur le site du challenge Guinness !</p>
-    <Link to="/start" className="text-blue-500 underline">Commencer une session</Link>
+  <div className="bg-background text-text min-h-screen flex items-center justify-center px-6">
+    <div className="text-center max-w-xl">
+      <h1 className="text-5xl md:text-6xl font-display text-gold font-bold mb-6">
+        Brest Guinness Tour
+      </h1>
+      <p className="text-gray-300 text-lg md:text-xl font-sans mb-10">
+        12 bars. 1 challenge. Beaucoup de Guinness.
+      </p>
+      <Link
+        to="/start"
+        className="inline-block bg-gold text-background font-semibold px-8 py-4 rounded-md hover:bg-goldLight transition"
+      >
+        Commencer le tour
+      </Link>
+    </div>
   </div>
 )
 
