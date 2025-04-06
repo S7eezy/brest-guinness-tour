@@ -1,0 +1,15 @@
+# Env files
+.env
+
+# Logs
+*.log
+
+# Temp & Build
+/tmp
+/dist
+
+# IDEs / Editors
+.idea
+.vscode
+*.swp
+*.swo
